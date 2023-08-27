@@ -1,3 +1,4 @@
+#pragma once
 #include "Table.h"
 
 class ArtDecoCoffeeTable : public Table
