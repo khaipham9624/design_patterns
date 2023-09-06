@@ -3,8 +3,9 @@
 
 
 int main(){
+    request r = "haha";
     Handler* handler1 = new Handler1();
     Handler* handler2 = new Handler2();
     handler1->setNextHandler(handler2);
-    handler1->handle();
+    handler1->handle(r);
 }
