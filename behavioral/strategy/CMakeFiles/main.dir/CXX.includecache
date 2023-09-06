@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pqkhai/code/design_patterns/behavioral/strategy/Context.h
+Strategy1.h
+/home/pqkhai/code/design_patterns/behavioral/strategy/Strategy1.h
+Strategy2.h
+/home/pqkhai/code/design_patterns/behavioral/strategy/Strategy2.h
+
+/home/pqkhai/code/design_patterns/behavioral/strategy/Strategy.h
+iostream
+-
+
+/home/pqkhai/code/design_patterns/behavioral/strategy/Strategy1.h
+Strategy.h
+/home/pqkhai/code/design_patterns/behavioral/strategy/Strategy.h
+
+/home/pqkhai/code/design_patterns/behavioral/strategy/Strategy2.h
+Strategy.h
+/home/pqkhai/code/design_patterns/behavioral/strategy/Strategy.h
+
+/home/pqkhai/code/design_patterns/behavioral/strategy/main.cpp
+Context.h
+/home/pqkhai/code/design_patterns/behavioral/strategy/Context.h
+
