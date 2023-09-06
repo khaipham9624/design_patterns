@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/Handler.h
+iostream
+-
+
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/Handler1.h
+Handler.h
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/Handler.h
+
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/Handler2.h
+Handler.h
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/Handler.h
+
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/main.cpp
+Handler1.h
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/Handler1.h
+Handler2.h
+/home/pqkhai/code/design_patterns/behavioral/chain_of_responsibility/Handler2.h
+
