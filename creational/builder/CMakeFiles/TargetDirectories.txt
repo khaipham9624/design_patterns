@@ -1,0 +1,3 @@
+/home/pqkhai/code/design_patterns/creational/builder/CMakeFiles/rebuild_cache.dir
+/home/pqkhai/code/design_patterns/creational/builder/CMakeFiles/main.dir
+/home/pqkhai/code/design_patterns/creational/builder/CMakeFiles/edit_cache.dir

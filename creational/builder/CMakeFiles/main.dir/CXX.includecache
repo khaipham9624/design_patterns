@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pqkhai/code/design_patterns/creational/builder/Builder.h
+iostream
+-
+
+/home/pqkhai/code/design_patterns/creational/builder/ConcreteBuilder1.h
+Builder.h
+/home/pqkhai/code/design_patterns/creational/builder/Builder.h
+Product1.h
+/home/pqkhai/code/design_patterns/creational/builder/Product1.h
+
+/home/pqkhai/code/design_patterns/creational/builder/ConcreteBuilder2.h
+Builder.h
+/home/pqkhai/code/design_patterns/creational/builder/Builder.h
+Product2.h
+/home/pqkhai/code/design_patterns/creational/builder/Product2.h
+
+/home/pqkhai/code/design_patterns/creational/builder/Director.h
+ConcreteBuilder1.h
+/home/pqkhai/code/design_patterns/creational/builder/ConcreteBuilder1.h
+ConcreteBuilder2.h
+/home/pqkhai/code/design_patterns/creational/builder/ConcreteBuilder2.h
+
+/home/pqkhai/code/design_patterns/creational/builder/Product1.h
+
+/home/pqkhai/code/design_patterns/creational/builder/Product2.h
+
+/home/pqkhai/code/design_patterns/creational/builder/main.cpp
+Director.h
+/home/pqkhai/code/design_patterns/creational/builder/Director.h
+ConcreteBuilder1.h
+/home/pqkhai/code/design_patterns/creational/builder/ConcreteBuilder1.h
+ConcreteBuilder2.h
+/home/pqkhai/code/design_patterns/creational/builder/ConcreteBuilder2.h
+
